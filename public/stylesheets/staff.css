@@ -89,19 +89,19 @@ table.list tr th {
 
 /* Forms */
 
-dl {
+form dl {
   clear: both;
   overflow: hidden;
   margin: 0.5em 0;
 }
 
-dt {
+.bold {
   float: left;
-  font-weight: bold;
+  font-weight: bolder;
   width: 125px;
 }
 
-dd {
+form input {
   float: left;
   margin-left: 1em;
 }

@@ -1,7 +1,7 @@
 <?php 
+ob_start(); //output buffering is turned on
 
 // DEFINING PATHS with constants
-
 // __FILE__ returns the current directory to this initialize file or the private directory
 define('PRIVATE_PATH', dirname(__FILE__));
 // then this line takes us out of the private to the whole project name
